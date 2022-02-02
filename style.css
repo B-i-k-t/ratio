@@ -1,0 +1,125 @@
+@font-face { 
+    font-family: "Ubuntu";
+    src: url(./fonts/Ubuntu-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Ubuntu";
+    src: url(./fonts/Ubuntu-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Ubuntu";
+    src: url(./fonts/Ubuntu-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1137px;
+    margin: auto;
+    padding: 0 10px;
+}
+.header {
+    margin-top: 62px;
+}
+a {
+    text-decoration: none;
+}
+/*=== nav ===*/
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 143px;
+}
+.nav__logo {
+    width: 49px;
+    height: 35px; 
+    text-decoration: none;
+    margin-right: 121px;
+    cursor: pointer;
+}
+.nav__logo:hover {
+    opacity: 0.8;
+    transition: opacity .5s linear;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav__menu_item {
+    margin-right: 40px;
+}
+.nav__menu_item:last-child {
+    margin-right: 0;
+}
+.nav__menu_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.nav__menu_link:hover {
+    font-weight: 700;
+    color: #212353;
+    transition: font-weight .5s linear;
+    transition: color .5s linear;
+}
+
+/*=== headline ===*/
+.headline {
+    width: 645px;
+    margin-bottom: 200px;
+    position: relative;
+}
+.headline__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    color: #212353;
+    margin-bottom: 50px;
+}
+.headline__text {
+    width: 380px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 50px;
+}
+.headline__btn {
+    width: 170px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background: #9C69E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;   
+}
+.headline__btn:hover {
+    opacity: .8;
+    transition: opacity .5s linear;
+}
+.headline__btn_link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.headline__img {
+    position: absolute;
+    top: 96px;
+    left: 363px;
+    z-index: -1;
+}
