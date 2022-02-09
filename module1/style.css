@@ -205,7 +205,7 @@ a {
     align-items: center;
 }
 .features__img {
-    width: 240px;
+    max-width: 240px;
     margin-right: 30px;
 }
 .features__subtitle {
