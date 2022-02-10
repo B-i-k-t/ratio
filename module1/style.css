@@ -206,6 +206,25 @@ img {
     display: flex;
     justify-content: start;
     align-items: center;
+    border-radius: 20px;
+}
+.features__block-first {
+    background: url('./img/features1/Ellipse.svg') 44px 382px / 34px 20px no-repeat,
+                url('./img/features1/Vector.svg') 198px 435px / 204px 118px no-repeat,
+                url('./img/features1/Rectangle.svg') top right / 442px 358px no-repeat;
+}
+.features__block-second {
+    background: url('./img/features2/Vector.svg') 44px 382px / 34px 20px no-repeat,
+                url('./img/features2/Rectangle.svg') top right / 442px 358px no-repeat;
+}
+.features__block-third {
+    background: url('./img/features2/Vector.svg') 44px 382px / 34px 20px no-repeat,
+                url('./img/features3/Rectangle.svg') top right / 442px 358px no-repeat;
+}
+.features__block-four {
+    background: url('./img/features4/Ellipse.svg') 44px 382px / 34px 20px no-repeat,
+                url('./img/features4/Vector.svg') 198px 435px / 204px 118px no-repeat,
+                url('./img/features4/Rectangle.svg') top right / 442px 358px no-repeat;
 }
 .features__img {
     max-width: 240px;
