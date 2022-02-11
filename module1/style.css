@@ -17,12 +17,17 @@
     font-style: normal;
 }
 
+:root {
+    --primary-color: #212353;
+    --second-color: #4B5D68;
+    --third-color: #9C69E2;
+    --white: #FFFFFF;
+  }
 .container {
     max-width: 1137px;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
-
 }
 .header {
     margin-top: 62px;
@@ -70,11 +75,11 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--second-color);
 }
 .nav__menu_link:hover {
     font-weight: 700;
-    color: #212353;
+    color: var(--primary-color);
     transition: font-weight .5s linear;
     transition: color .5s linear;
 }
@@ -90,7 +95,7 @@ img {
     font-weight: 700;
     font-size: 80px;
     line-height: 110%;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 50px;
 }
 .headline__text {
@@ -98,7 +103,7 @@ img {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--second-color);
     margin-bottom: 50px;
 }
 .headline__btn {
@@ -106,7 +111,7 @@ img {
     height: 60px;
     border: none;
     cursor: pointer;
-    background: #9C69E2;
+    background: var(--third-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +126,7 @@ img {
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .headline__img {
     position: absolute;
@@ -144,7 +149,6 @@ img {
 }
 .storage__img {
     width: 469px;
-
 }
 .storage__content {
     margin: 125px 65px 125px 92px;
@@ -154,7 +158,7 @@ img {
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 40px;
 }
 .storage__text {
@@ -162,7 +166,7 @@ img {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--second-color);
 }
 
 /*=== features ===*/
@@ -185,7 +189,7 @@ img {
     font-size: 40px;
     line-height: 130%;
     text-align: center;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 50px;
 }
 .features__preamble {
@@ -194,7 +198,7 @@ img {
     font-size: 18px;
     line-height: 160%;
     text-align: center;
-    color: #4B5D68;
+    color: var(--second-color);
 }
 .features__blocks {
     display: grid;
@@ -239,7 +243,7 @@ img {
     font-weight: 500;
     font-size: 24px;
     line-height: 130%;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 20px;
     margin-top: 49px;
 }
@@ -248,7 +252,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--second-color);
 }
 .features__link {
     display: flex;
@@ -263,14 +267,14 @@ img {
     font-size: 16px;
     line-height: 160%;
     letter-spacing: 0.005em;
-    color: #212353;
+    color: var(--primary-color);
     margin-right: 20px;
 }
 .features__arrow {
     cursor: pointer;
     width: 20px;
     height: 14px;
-    color: #9C69E2;
+    color: var(--third-color);
 }
 .features__arrow:hover, .features__arrow:focus {
     opacity: .6;
@@ -279,7 +283,7 @@ img {
 
 /*=== testimonials ===*/
 .testimonials {
-    background: #9C69E2;
+    background: var(--third-color);
     border-radius: 50px;
     padding-top: 109px;
     padding-left: 93px;
@@ -292,7 +296,7 @@ img {
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .testimonials__slider {
     display: flex;
@@ -309,7 +313,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    background: #FFFFFF;
+    background: var(--white);
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     border-radius: 20px;
     margin-right: 20px;
@@ -321,7 +325,7 @@ img {
 .testimonials__ava {
     width: 90px;
     height: 90px;
-    background: #9C69E2;
+    background: var(--third-color);
     margin-right: 30px;
 }
 .testimonials__content {
@@ -333,7 +337,7 @@ img {
     font-size: 18px;
     line-height: 160%;
     letter-spacing: 0.005em;
-    color: #212353;
+    color: var(--primary-color);
 }
 .testimonials__position {
     font-style: normal;
@@ -341,14 +345,14 @@ img {
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 0.01em;
-    color: #9C69E2;
+    color: var(--third-color);
 }
 .testimonials__text {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 180%;
-    color: #4B5D68;
+    color: var(--second-color);
     margin-top: 19px;
 }
 .testimonials__panel {
@@ -365,7 +369,7 @@ img {
 .testimonials__point {
     width: 5px;
     height: 5px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 50%;
     margin-right: 10px;
     cursor: pointer;
@@ -389,7 +393,7 @@ img {
 .testimonials__arrow {
     width: 20px;
     height: 14px;
-    color: #FFFFFF;
+    color: var(--white);
     opacity: .5;
     margin-right: 20px;
     cursor: pointer;
@@ -407,7 +411,7 @@ img {
 }
 .hr {
     height: 2px;
-    background: #9C69E2;
+    background: var(--third-color);
     opacity: 0.2;
 }
 
@@ -439,7 +443,7 @@ img {
     font-weight: 700;
     font-size: 20px;
     line-height: 160%;
-    color: #212353;
+    color: var(--primary-color);
 }
 .footer__address {
     font-style: normal;
@@ -447,7 +451,7 @@ img {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.01em;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 10px;
 }
 .footer__contact {
@@ -456,7 +460,7 @@ img {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.01em;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 36px;
 }
 .footer__copyright {
@@ -465,14 +469,14 @@ img {
     font-size: 12px;
     line-height: 180%;
     letter-spacing: 0.01em;
-    color: #212353;
+    color: var(--primary-color);
 }
 .footer__subtitle {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
-    color: #212353;
+    color: var(--primary-color);
     margin-bottom: 30px;
 }
 .footer__icons {
@@ -483,7 +487,7 @@ img {
 .footer__icon {
     width: 50px;
     height: 49.08px;
-    background: #212353;
+    background: var(--primary-color);
     opacity: 0.1;
     display: flex;
     justify-content: center;
