@@ -170,6 +170,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 .features__caption {
     display: flex;
@@ -209,26 +210,29 @@ img {
     border-radius: 20px;
 }
 .features__block-first {
-    background: url('./img/features1/Ellipse.svg') 44px 382px / 34px 20px no-repeat,
-                url('./img/features1/Vector.svg') 198px 435px / 204px 118px no-repeat,
-                url('./img/features1/Rectangle.svg') top right / 442px 358px no-repeat;
+    background: url('./img/features1/Ellipse.svg') top 44px right 118px / 34px 20px no-repeat,
+                url('./img/features1/Vector.svg') top 15px right 20px / 204px 118px no-repeat,
+                url('./img/features1/Rectangle.jpg') top right/ 82% 100% no-repeat;
 }
 .features__block-second {
-    background: url('./img/features2/Vector.svg') 44px 382px / 34px 20px no-repeat,
-                url('./img/features2/Rectangle.svg') top right / 442px 358px no-repeat;
+    background: url('./img/features2/Vector.svg') bottom 20px right 20px / 222px 130px no-repeat,
+                url('./img/features2/Rectangle.jpg') top right / 82% 100% no-repeat;
 }
 .features__block-third {
-    background: url('./img/features2/Vector.svg') 44px 382px / 34px 20px no-repeat,
-                url('./img/features3/Rectangle.svg') top right / 442px 358px no-repeat;
+    background: url('./img/features3/Ellipse.svg') top 20px right 20px / 68px 40px no-repeat,
+                url('./img/features3/Rectangle.jpg') top right / 82% 100% no-repeat;
 }
 .features__block-four {
-    background: url('./img/features4/Ellipse.svg') 44px 382px / 34px 20px no-repeat,
-                url('./img/features4/Vector.svg') 198px 435px / 204px 118px no-repeat,
-                url('./img/features4/Rectangle.svg') top right / 442px 358px no-repeat;
+    background: url('./img/features4/Ellipse.svg') bottom 20px right 20px / 62px 37px no-repeat,
+                url('./img/features4/Vector.svg') top 20px right 50% / 324px 188px no-repeat,
+                url('./img/features4/Rectangle.jpg') top right / 82% 100% no-repeat;
 }
 .features__img {
     max-width: 240px;
     margin-right: 30px;
+}
+.features__content {
+    margin-right: 20px;
 }
 .features__subtitle {
     font-style: normal;
@@ -311,10 +315,13 @@ img {
     margin-right: 20px;
     padding: 60px 70px 50px;
 }
+.testimonials__item-gradient {
+    background: linear-gradient(90deg, #FFFFFF 30%, rgba(255, 255, 255, 0) 100%);
+}
 .testimonials__ava {
     width: 90px;
     height: 90px;
-    background: #F063B8;
+    background: #9C69E2;
     margin-right: 30px;
 }
 .testimonials__content {
@@ -625,7 +632,7 @@ img {
     .features__blocks {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: 1fr;
-        grid-row-gap: 0px;
+        grid-row-gap: 10px;
     }
     .testimonials {
         padding-top: 60px;
