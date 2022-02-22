@@ -97,6 +97,7 @@ img {
     -webkit-transition: font-weight .5s linear;
     -o-transition: font-weight .5s linear;
     transition: font-weight .5s linear;
+/*TODO: удалите следующие три строки, они дублируют предыдущие*/
     -webkit-transition: color .5s linear;
     -o-transition: color .5s linear;
     transition: color .5s linear;
@@ -203,6 +204,7 @@ img {
 
 /*=== features ===*/
 .features {
+/*TODO: дублированные больших кусков кода здесь строка 208-217 и 221-231 */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -405,6 +407,7 @@ img {
         -ms-flex-align: start;
             align-items: start;
     background: var(--white);
+/*TODO: нет необходимости указывать единицы измерения нулям 0px -> 0 */
     -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
             box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     border-radius: 20px;
@@ -559,6 +562,7 @@ img {
 }
 .footer__logo {
     width: 49px;
+/*TODO: избегайте использования дробных пикселей, пиксель - это точка. Эту ситуацию по-разному отрисуют браузеры*/
     height: 34.35px;
     margin-right: 20px;
 }
@@ -622,6 +626,7 @@ img {
 }
 .footer__icon {
     width: 50px;
+/*TODO: избегайте использования дробных пикселей, пиксель - это точка. Эту ситуацию по-разному отрисуют браузеры*/
     height: 49.08px;
     background: var(--primary-color);
     opacity: 0.1;
